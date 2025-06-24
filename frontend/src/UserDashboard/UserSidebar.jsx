@@ -15,6 +15,11 @@ const UserSidebar = ({ isOpen, toggleSidebar }) => {
   const currentPath = location.pathname;
 
   const menuItems = [
+      {
+      name: "Home",
+      path: "adminsetting",
+      icon: <IoMdSettings className="h-5 w-5 mr-3" />,
+    },
     {
       name: "Dashboard",
       path: "userhome",
@@ -38,11 +43,7 @@ const UserSidebar = ({ isOpen, toggleSidebar }) => {
       path: "usermessage",
       icon: <FaUserDoctor className="h-5 w-5 mr-3" />,
     },
-    {
-      name: "Settings",
-      path: "adminsetting",
-      icon: <IoMdSettings className="h-5 w-5 mr-3" />,
-    },
+  
   ];
 
   const handleNavClick = (path) => {

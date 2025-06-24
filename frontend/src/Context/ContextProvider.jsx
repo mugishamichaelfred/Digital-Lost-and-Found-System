@@ -26,7 +26,7 @@ export const AppContext = ({ children }) => {
         const response = await axiosClient.get(
           "/api/lostItems"
         );
-        console.log(response.data);
+        console.log('Lost items founded',response.data);
         setTour(response.data);
       } catch (err) {
         if (err.response) {

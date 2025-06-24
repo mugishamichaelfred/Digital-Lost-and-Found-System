@@ -92,16 +92,11 @@ const UserHeader = ({ toggleSidebar, isMobile, sidebarOpen }) => {
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={handleProfileClick}
-              className="h-7 w-7 sm:h-9 sm:w-9 bg-gray-300 rounded-full overflow-hidden focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+              className="h-7 w-7 sm:h-9 sm:w-9 bg-gray-300 rounded-full overflow-hidden flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
             >
-              <img
-                src={profile}
-                alt="Profile"
-                className="h-full w-full object-cover"
-              />
+              <User className="h-5 w-5 sm:h-7 sm:w-7 text-gray-600" />
             </button>
-
-            {/* Dropdown Menu */}
+            
             {showProfileDropdown && (
               <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
                 <Link

@@ -105,7 +105,7 @@ const Header = ({ toggleSidebar, isMobile, sidebarOpen }) => {
 
             {/* Dropdown Menu */}
             {showProfileDropdown && (
-              <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
+              <div className="absolute  right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
                 <Link
                   to="adminsetting"
                   onClick={handleLinkClick}
