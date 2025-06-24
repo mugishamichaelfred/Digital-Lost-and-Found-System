@@ -1,0 +1,21 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="140" stroke="#4A90E2" stroke-width="6" fill="#F2F9FF"></circle>
+  
+  <!-- Phone -->
+  <rect x="100" y="80" width="100" height="140" rx="15" stroke="#4A90E2" stroke-width="5" fill="white"></rect>
+  <circle cx="150" cy="210" r="5" fill="#4A90E2"></circle>
+  
+  <!-- Tag Icon (Lost item) -->
+  <rect x="125" y="100" width="50" height="30" rx="5" fill="#7ED6DF" stroke="#22A6B3" stroke-width="3"></rect>
+  <circle cx="172" cy="115" r="4" fill="white"></circle>
+  
+  <!-- Magnifying Glass -->
+  <circle cx="200" cy="200" r="25" stroke="#E67E22" stroke-width="6" fill="none"></circle>
+  <line x1="220" y1="220" x2="240" y2="240" stroke="#E67E22" stroke-width="6" stroke-linecap="round"></line>
+  
+  <!-- Text -->
+  <text x="50%" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#34495E">
+    Digital Lost &amp; Found
+  </text>
+</svg>
