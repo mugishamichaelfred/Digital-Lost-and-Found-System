@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        const mongoURI = "mongodb+srv://michaelfred:Blessing123@cluster0.gmljobm.mongodb.net/lostAndFoundItems";
+        const mongoURI = "mongodb+srv://micha**red:Je********K@cluster0.gmljobm.mongodb.net/lostAndFoundItems";
         
         const options = {
             useNewUrlParser: true,

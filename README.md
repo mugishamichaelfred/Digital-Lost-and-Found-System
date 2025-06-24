@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the repository
 ```bash
-git clone https://github.com/kubwimanav/final-project/
+git clone https://github.com/mugishamichaelfred/Digital-Lost-and-Found-System
 cd final-project
 git checkout development
 ```
